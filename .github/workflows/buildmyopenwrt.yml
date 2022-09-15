@@ -8,8 +8,8 @@
 name: buildmyopenwrt
 
 on:
-  schedule:
-    - cron: 0 20 * * *
+#  schedule:
+#    - cron: 0 20 * * *
   release:
     types: [published]
     
